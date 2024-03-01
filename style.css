@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.bg{
+    background-color:#ffc107;
+    padding-bottom: 0.25rem;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #050045;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+.menu a:hover{
+    color: #ffc107;
+}
+.col{
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+}
+.text{
+    color: white;
+    font-family: 'Synocopate', sans-serif;
+}
+.h2{
+    font-size: 2rem;
+}
+.home{
+    position: relative;
+}
+.home img{
+    width: 100%;
+    height: 100vh;
+    filter: blur(3px);
+}
+.image-text{
+    position: absolute;
+    color: #1105b1;
+    bottom: 300px;
+    left: 400px;
+    font-size: 100px;
+    padding: 5px 10px;
+}
+.background{
+    background-color: #1105b1;
+}
+.background img{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.vm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px 200px;
+}
+h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h6{
+    font-family: 'Kanit', sans-serif;
+    font-size: 80%;
+    font-weight: 200;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:200%;
+    text-transform: uppercase;
+}
+
+.all-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 720px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box{
+    border: 3px solid;
+    width: 200px;
+    height: auto;
+    background-color: #080170;
+    color: #fff;
+    margin: 5px;
+}
+h4, figcaption{
+    color: #ffc107;
+}
+.box img{
+    padding: 0.5rem;
+    width: 100%;
+    height: 200px;
+    vertical-align: middle;
+}
+.divider{
+    border-top: 2px solid grey;
+}
+.header{
+    border: 2px solid #fff;
+    background-color: #050045;
+    width: 100%;
+    
+}
+.header h2{
+    color: #ffc107;
+}
+.header p{
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cont-box{
+    border: 2px solid;
+    width: 100%;
+    background-color: #050045;
+    color: #fff;
+}
+.cont-box h3{
+    font-family: 'Kanit', sans-serif;
+    color: #ffc107;
+}
+

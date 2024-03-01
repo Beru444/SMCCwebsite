@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h6{
+    font-family: 'Kanit', sans-serif;
+    font-size: 80%;
+    font-weight: 200;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:200%;
+    text-transform: uppercase;
+}
+.all-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+.box{
+    border: 3px solid;
+    width: 200px;
+    height: auto;
+    background-color: #080170;
+    color: #fff;
+    margin: 5px;
+}
+h4, figcaption{
+    color: #ffc107;
+}
+.box img{
+    padding: 0.5rem;
+    width: 100%;
+    height: 200px;
+    vertical-align: middle;
+}
