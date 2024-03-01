@@ -131,16 +131,16 @@ h4, figcaption{
 .divider{
     border-top: 2px solid grey;
 }
-.header{
+.header-content{
     border: 2px solid #fff;
     background-color: #050045;
     width: 100%;
     
 }
-.header h2{
+.header-content h2{
     color: #ffc107;
 }
-.header p{
+.header-content p{
     color: #fff;
 }
 .container{
